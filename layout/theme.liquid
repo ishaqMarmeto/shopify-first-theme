@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
-
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
@@ -27,7 +26,7 @@
     {% endif %}
 
     {% render 'meta-tags' %}
-    {{ 'shop-the-look.css' | asset_url | stylesheet_tag }}
+    
 
 
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
@@ -374,7 +373,5 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-    {{ 'shop-the-look.js' | asset_url | script_tag }}
-
   </body>
 </html>

@@ -1,3 +1,5 @@
+/* 
+
 .shop-the-look {
     display: flex;
     flex-direction: row;
@@ -5,7 +7,9 @@
     justify-content: space-between;
     padding: 20px;
   }
-  
+.main-head{
+    text-align: center;
+}  
   .shop-the-look .image-container {
     position: relative;
     flex: 1;
@@ -31,7 +35,7 @@
   }
   
   .shop-the-look .product-card {
-    display: none;
+    display: block;
   }
   
   @media screen and (max-width: 768px) {
@@ -43,6 +47,93 @@
     }
     .shop-the-look .product-info-container {
       width: 100%;
+    }
+  }
+   */
+
+
+   .shop-the-look {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .shop-the-look__main-image {
+    position: relative;
+    width: 100%;
+    max-width: 1260px;
+  }
+  
+  .shop-the-look__main-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .shop-the-look__hotspot {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    cursor: pointer;
+  }
+  
+  .shop-the-look__hotspot-button {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    border: 1px solid #ff6000;
+    background-color: #ff6000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: background-color 0.3s;
+  }
+  
+  .shop-the-look__hotspot-button:hover {
+    background-color: #ff774c;
+  }
+  
+  .shop-the-look__hotspot-label {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    z-index: 2;
+  }
+  
+  .shop-the-look__hotspot--selected .shop-the-look__hotspot-label {
+    opacity: 1;
+  }
+  
+  .shop-the-look__product-info {
+    width: 100%;
+    max-width: 1260px;
+    margin-top: 20px;
+  }
+  
+  .splide__slide {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .splide__slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-card {
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .shop-the-look__product-info {
+      width: 100%;
+      max-width: 100%;
     }
   }
   
