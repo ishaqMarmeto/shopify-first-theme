@@ -1,5 +1,13 @@
 {
   "sections": {
+    "shop_the_look":{
+      "type": "shop-the-look",
+      "settings": {
+        "main_image": "",
+        "image_alt_text": "Alt text"
+      }
+    },
+    
     "custom_text": {
       "type": "custom-image-with-text",
       "settings": {
@@ -41,6 +49,7 @@
     }
   },
   "order": [
+    "shop_the_look",
     "custom_text",
     "featured_collection"
   ]
