@@ -11,6 +11,7 @@
   "sections": {
     "custom_text": {
       "type": "custom-image-with-text",
+      "disabled": true,
       "settings": {
         "desktop_image": "shopify:\/\/shop_images\/green_kurtha.jpg",
         "heading": "Heading",
@@ -20,37 +21,61 @@
         "button_background": ""
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "hotspot_image_with_product_slider_qdbYiC": {
+      "type": "hotspot-image-with-product-slider",
+      "blocks": {
+        "hotspot_4TtiQ9": {
+          "type": "hotspot",
+          "settings": {
+            "horizontal_position": 31,
+            "Vertical_position": 38,
+            "mobile_horizontal_position": 24,
+            "mobile_Vertical_position": 37,
+            "hotspot_product": "water-resistance-snow-hoodie"
+          }
+        },
+        "hotspot_C6DJre": {
+          "type": "hotspot",
+          "settings": {
+            "horizontal_position": 37,
+            "Vertical_position": 19,
+            "mobile_horizontal_position": 29,
+            "mobile_Vertical_position": 19,
+            "hotspot_product": "high-performance-snow-google"
+          }
+        },
+        "hotspot_Bitgjr": {
+          "type": "hotspot",
+          "settings": {
+            "horizontal_position": 75,
+            "Vertical_position": 64,
+            "mobile_horizontal_position": 75,
+            "mobile_Vertical_position": 67,
+            "hotspot_product": "beginners-guide-to-snowboarding-dvd"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_4TtiQ9",
+        "hotspot_C6DJre",
+        "hotspot_Bitgjr"
+      ],
       "settings": {
-        "title": "Shop By Categories",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": true,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
+        "padding_top": 10,
+        "padding_bottom": 10,
+        "heading": "shop the look",
+        "image": "shopify:\/\/shop_images\/newimage_8cf81a96-d590-46a0-bd86-84cadebf1e49_1.webp",
+        "slide_type": "loop",
+        "slide_per_page": 2,
+        "pagination": false,
+        "arrows": true,
+        "autoplay": false,
+        "autoplay_interval": 3
       }
     }
   },
   "order": [
     "custom_text",
-    "featured_collection"
+    "hotspot_image_with_product_slider_qdbYiC"
   ]
 }
