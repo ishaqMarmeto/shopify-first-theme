@@ -47,41 +47,10 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
-    },
-    "hotspot_image_with_product_slider_GJAHtU": {
-      "type": "hotspot-image-with-product-slider",
-      "blocks": {
-        "hotspot_Bqgt77": {
-          "type": "hotspot",
-          "settings": {
-            "horizontal_position": 29,
-            "Vertical_position": 39,
-            "mobile_horizontal_position": 26,
-            "mobile_Vertical_position": 38,
-            "hotspot_product": "water-resistance-snow-hoodie"
-          }
-        }
-      },
-      "block_order": [
-        "hotspot_Bqgt77"
-      ],
-      "settings": {
-        "padding_top": 10,
-        "padding_bottom": 10,
-        "heading": "Shop the look",
-        "image": "shopify:\/\/shop_images\/newimage_8cf81a96-d590-46a0-bd86-84cadebf1e49_1.webp",
-        "slide_type": "loop",
-        "slide_per_page": 2,
-        "pagination": false,
-        "arrows": true,
-        "autoplay": false,
-        "autoplay_interval": 3
-      }
     }
   },
   "order": [
     "custom_text",
-    "featured_collection",
-    "hotspot_image_with_product_slider_GJAHtU"
+    "featured_collection"
   ]
 }
